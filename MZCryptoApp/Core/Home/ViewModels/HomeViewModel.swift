@@ -17,10 +17,7 @@ class HomeViewModel: ObservableObject {
     private let dataService = CoinDataService()
 
     init() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-            self.allCoins.append(DeveloperPreview.instance.coin)
-            self.portfolioCoins.append(DeveloperPreview.instance.coin)
-        }
+        addSubscribers()
     }
 
     func addSubscribers() {
