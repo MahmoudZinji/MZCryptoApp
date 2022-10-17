@@ -16,6 +16,7 @@
 		0C9082E028FD647B00538463 /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0C9082DA28FD647B00538463 /* PortfolioContainer.xcdatamodeld */; };
 		0C9082E128FD647B00538463 /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9082DC28FD647B00538463 /* StatisticModel.swift */; };
 		0C9082E228FD647B00538463 /* CoinDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9082DD28FD647B00538463 /* CoinDetailModel.swift */; };
+		0C9082E428FD65EE00538463 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9082E328FD65EE00538463 /* CoinRowView.swift */; };
 		0CBA677528FD4C0700377DF1 /* MZCryptoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA677428FD4C0700377DF1 /* MZCryptoAppApp.swift */; };
 		0CBA677728FD4C0700377DF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA677628FD4C0700377DF1 /* ContentView.swift */; };
 		0CBA677928FD4C0B00377DF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CBA677828FD4C0B00377DF1 /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		0C9082DB28FD647B00538463 /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		0C9082DC28FD647B00538463 /* StatisticModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
 		0C9082DD28FD647B00538463 /* CoinDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinDetailModel.swift; sourceTree = "<group>"; };
+		0C9082E328FD65EE00538463 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		0CBA677128FD4C0700377DF1 /* MZCryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MZCryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CBA677428FD4C0700377DF1 /* MZCryptoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZCryptoAppApp.swift; sourceTree = "<group>"; };
 		0CBA677628FD4C0700377DF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				0C9082CF28FD53C700538463 /* HomeView.swift */,
+				0C9082E328FD65EE00538463 /* CoinRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C9082E428FD65EE00538463 /* CoinRowView.swift in Sources */,
 				0C9082E128FD647B00538463 /* StatisticModel.swift in Sources */,
 				0C9082CA28FD4F1900538463 /* ColorExtension.swift in Sources */,
 				0C9082D028FD53C700538463 /* HomeView.swift in Sources */,
